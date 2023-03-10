@@ -1,0 +1,39 @@
+body
+{
+    background-image: url("https://i.pinimg.com/736x/2d/f8/57/2df857bf6c1c18740da1da3b0e9ebf53.jpg");
+    background-size: cover;
+    text-align: center;
+}
+#player1_name, #player2_name{
+    display: inline-block;
+    font-weight: bold;
+    color: aqua;
+    margin-left: 3px;
+}
+#output{
+    background-color: azure;
+    border-radius: 10px;
+    border-top: black;
+    border-left: black;
+    border-right: black;
+    border-bottom: black;
+    padding: 10px;
+    float: none;
+    text-align: left;
+}
+h3{
+	color: rgb(238, 185, 121);
+	font-family: 'chiller', cursive;
+	width: 100px;
+}
+h3:hover{
+	text-decoration: underline;
+}
+#number_1,#number_2
+{
+	color: red;
+	font-weight: bold;
+}
+input:hover{
+	background-color: rgb(76, 243, 76);
+}
